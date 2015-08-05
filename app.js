@@ -26,7 +26,7 @@ app.use(bodyParser());
 app.use(express.static(path.join(__dirname, 'bower_components')));
 app.listen(port);
 
-console.log('movie started on port ' + port);
+//console.log('movie started on port ' + port);
 
 //路由编写
 //伪造数据
